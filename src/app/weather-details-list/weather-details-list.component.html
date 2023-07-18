@@ -1,0 +1,10 @@
+<p>weather-details-list works!</p>
+
+<div class="list-group w-100" *ngFor="let weather of weatherDetailsList">
+    <li class="list-group-item d-flex justify-content-between w-100" >
+        <span>{{weather.timezone}}</span>
+    </li>   
+    <li class="list-group-item d-flex justify-content-between w-100">
+        <span>{{weather.current.temp}}</span>
+    </li>  
+</div>
